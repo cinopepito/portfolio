@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-height: 100vh;
+  position: relative;
+}
+body {
+  min-height: 100vh;
+}
+header {
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin:20px 0;
+}
+li a{
+    text-decoration: none;
+    color:#fff;
+    margin-right: 20px;
+}
+main{
+    padding: 50px;
+}
+footer {
+  text-align: center;
+  background: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px;
+}
