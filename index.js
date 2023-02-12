@@ -62,3 +62,13 @@ var dinosaurs = [
 ];
 
 console.log(dinosaurs[1]["period"]);
+/* let's track our money like a bank with an array */
+var ownedMoney = {};
+ownedMoney["john"] = 5;
+ownedMoney["anna"] = 10;
+ownedMoney["kokou"] = "";
+
+ownedMoney["john"] += 3;
+ownedMoney["anna"] += 20;
+console.log(ownedMoney["john"]);
+console.log(ownedMoney["anna"]);
