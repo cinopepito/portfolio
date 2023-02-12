@@ -10,6 +10,7 @@ html {
 }
 body {
   min-height: 100vh;
+  line-height: 1.2;
 }
 header {
   text-align: center;
@@ -19,15 +20,18 @@ header {
 ul li {
   list-style-type: none;
   display: inline-block;
-  margin:20px 0;
+  margin: 20px 0;
 }
-li a{
-    text-decoration: none;
-    color:#fff;
-    margin-right: 20px;
+li a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  background: #0c494d;
+  padding: 10px;
+  border-radius: 5px;
 }
-main{
-    padding: 50px;
+main {
+  padding: 50px;
 }
 footer {
   text-align: center;
