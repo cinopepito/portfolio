@@ -50,3 +50,15 @@ var randomInsult =
   " like a " +
   randomWords;
 console.log(randomInsult);
+
+let array = [3, 2, 1];
+
+console.log(array.join(" is bigger than "));
+
+var dinosaurs = [
+  { name: "Tyrannosaurus Rex", period: "Late Cretaceous" },
+  { name: "Stegosaurus", period: "Late Jurassic" },
+  { name: "Plateosaurus", period: "Triassic" },
+];
+
+console.log(dinosaurs[1]["period"]);
