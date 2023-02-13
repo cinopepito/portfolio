@@ -60,7 +60,9 @@ var dinosaurs = [
   { name: "Stegosaurus", period: "Late Jurassic" },
   { name: "Plateosaurus", period: "Triassic" },
 ];
-
+dinosaurs.forEach((ele) => {
+  console.log(ele);
+});
 console.log(dinosaurs[1]["period"]);
 /* let's track our money like a bank with an array */
 var ownedMoney = {};
@@ -72,3 +74,33 @@ ownedMoney["john"] += 3;
 ownedMoney["anna"] += 20;
 console.log(ownedMoney["john"]);
 console.log(ownedMoney["anna"]);
+
+/* Storing infrmation about movies */
+var movies = {
+  "findind Nemo": {
+    releaseDate: 2003,
+    duration: 100,
+    actors: ["Albert Brooks", "Ellen DeGeneres", "Alexander Gould"],
+    format: "DVD",
+  },
+  "Star Wars: Episode VI - Return of the Jedi": {
+    releaseDate: 1983,
+    duration: 134,
+    actors: ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
+    format: "DVD",
+  },
+  "Harry Potter and the Goblet of Fire": {
+    releaseDate: 2005,
+    duration: 157,
+    actors: ["Daniel Radcliffe", "Emma Watson", "Rupert Grint"],
+    format: "Blu-ray",
+  },
+};
+var cars = {
+  releaseDate: 2006,
+  duration: 117,
+  actors: ["Owen Wilson", "Bonnie Hunt", "Paul Newman"],
+  format: "Blu-ray",
+};
+movies["cars"] = cars;
+console.log(movies)
