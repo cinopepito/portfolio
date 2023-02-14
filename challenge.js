@@ -40,7 +40,40 @@ var myCrazyObject = {
 };
 console.log(myCrazyObject["some array"][2].number);
 
-var animals = ["Cat", "Fish", "Lemur", "Komodo Dragon"];
-for (var i = 0; i < animals.length; i++) {
-  console.log('awesome',animals[i]);
-}
+// var animals = ["Cat", "Fish", "Lemur", "Komodo Dragon"];
+// for (var i = 0; i < animals.length; i++) {
+//   console.log("awesome", animals[i]);
+// }
+
+// var alphabet = "abcdefghijklmnopqrstuvwxyz";
+
+// var index = Math.floor(Math.random() * alphabet.length);
+// var randomString = "";
+
+// for (var i = 0; i < alphabet.length; i++) {
+//   randomString += alphabet[index];
+//   console.log(randomString);
+// }
+let input = "javascript is awesome";
+
+console.log(input);
+let str = "";
+const generatorString = () => {
+  for (let i = 0; i < 6; i++) {
+    let index = Math.floor(Math.random() * input.length);
+
+    str += input[index];
+  }
+  return str;
+};
+console.log(generatorString());
+// let str = "abcdef0123456789";
+// let hex = "";
+// const generator = () => {
+//   for (var i = 0; i < 6; i++) {
+//     let index = Math.floor(Math.random() * str.length);
+//     hex += str[index];
+//   }
+//   return "#" + hex;
+// };
+// console.log(generator());
